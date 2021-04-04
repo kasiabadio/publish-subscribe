@@ -62,7 +62,7 @@ Klient odbiera wiadomości od serwera w procesie macierzystym, również z flag�
 
 
 ### 3. Dokładny opis poszczególnych funkcji
-### Opis funkcji w pliku inf145306_s.c
+### Opis funkcji w pliku serwer.c
 Jest to program serwera odbierający informacje od klientów i rozgłaszający wiadomości.
 * Funkcja main
   
@@ -123,7 +123,7 @@ Jest to program serwera odbierający informacje od klientów i rozgłaszający w
   Typ_Subskrypcja, Klient, Wiadomosc, Typ_Wiadomosci
 
 
-### Opis funkcji w pliku inf145306_k.c
+### Opis funkcji w pliku klient.c
 
 Jest to program klienta, który wysyła i odbiera wiadomości od serwera.
 
