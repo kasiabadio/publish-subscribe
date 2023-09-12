@@ -20,37 +20,3 @@ Aby uruchomić program klienta należy w nowym oknie terminalu wpisać:
 
 Następnie śledzić instrukcje podane na ekranie. Aby zamknąć programy należy wcisnąć Ctrl+C.
 
-### 3. Opis zawartości pliku serwer.c
-Jest to program serwera odbierający informacje od klientów i rozgłaszający wiadomości.
-* Funkcja main
-
-* Funkcja wyslij_do_subskrybentow
-
-* Funkcja zarejestruj_odbiorce_typu
-
-* Funkcja wyswietl_typy_klienta
-
-* Funkcja zaloguj_klienta
-
-* Funkcja wyswietl_zalogowanych_klientow
-  
-* Funkcja wyslij_informacje_o_nowym_typie
-
-* Funkcja dodaj_typ
-
-* Funkcja porownaj_typy
-  
-* Funkcja wyswietl_typy
-
-* struktury do przechowywania informacji:
-  Typ_Subskrypcja, Klient, Wiadomosc, Typ_Wiadomosci
-
-
-### 4. Opis zawartości pliku klient.c
-
-Jest to program klienta, który wysyła i odbiera wiadomości od serwera.
-
-* Funkcja main
-  
-* struktury do przechowywania informacji: Typ_Subskrypcja, Klient, Wiadomosc
-
