@@ -1,6 +1,6 @@
 # IPC Publish - Subscribe
 ## Ogólne informacje
-    Celem projektu jest implementacja systemu rozgłaszania wiadomości do wszystkich procesów, które zasubskrybowały dany typ wiadomości. Tworzona aplikacja wykorzystuje mechanizm kolejek komunikatów. W ramach projektu zostały opracowane programy klienta i serwera oraz protokół komunikacyjny. Został użyty język C.
+Celem projektu jest implementacja systemu rozgłaszania wiadomości do wszystkich procesów, które zasubskrybowały dany typ wiadomości. Tworzona aplikacja wykorzystuje mechanizm kolejek komunikatów. W ramach projektu zostały opracowane programy klienta i serwera oraz protokół komunikacyjny. Został użyty język C.
 
 ### 1. Użyte w projekcie struktury
 Obecne w programie serwera oraz klienta:
